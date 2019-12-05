@@ -1,4 +1,4 @@
-# AidanMolloyWebsite
+# Personal Website
 [Link to my personal website](https://www.aidan.molloy.ie)
 
 ## Features
