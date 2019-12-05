@@ -1,7 +1,7 @@
 # AidanMolloyWebsite
 [Link to my personal website](https://www.aidan.molloy.ie)
 
-##Features
+## Features
 * CV Like website
 * CSS Animations
 * Experience / Achievements
