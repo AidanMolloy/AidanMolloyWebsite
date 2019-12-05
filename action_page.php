@@ -11,4 +11,4 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "Thank You for your email!";
 ?>
 <script type="text/javascript">confirm("Email sent successfully")</script>
-<script type="text/javascript">location.href = 'https://cs1.ucc.ie/~am63/wd1/';</script>
+<script type="text/javascript">location.href = 'https://aidan.molloy.ie';</script>
