@@ -14,17 +14,14 @@ html {
     width: 0px;
 }
 
-body{
-
+body {
     /* Colour Scheme #0B0C10 */
-    --1-color: #2a1c4f; /* Background */
-    --2-color: #170f2a; /* Nav Background */
-    --3-color: #ff9347; /* Heading Colours */
-    --4-color: #; /* Not used */
-    --5-color: #; /* Nav color */
+    --main-bg-color: #2a1c4f; /* Background */
+    --nav-bg-color: #170f2a; /* Nav Background */
+    --heading-color: #ff9347; /* Heading Colours */
 
     /* General */
-    background: var(--1-color);
+    background: var(--main-bg-color);
     margin: 0;
     padding: 0;
     font-family: Helvetica, Arial, sans-serif;
@@ -38,7 +35,7 @@ body{
 }
 
 .container h2 {
-    color: var(--3-color);
+    color: var(--heading-color);
 }
 
 a {
@@ -47,7 +44,7 @@ a {
 
 /* Nav */
 li.active {
-    background-color: var(--3-color);
+    background-color: var(--heading-color);
 }
 
 li.active a{
@@ -57,12 +54,12 @@ li.active a{
 /* Home Page */
 #experience ul li{
     list-style-type: square;
-    border-top: 3px solid var(--3-color);
+    border-top: 3px solid var(--heading-color);
 }
 
 #achievements ul li{
     list-style-type: square;
-    border-top: 3px solid var(--3-color);
+    border-top: 3px solid var(--heading-color);
 }
 
 .date {
@@ -100,13 +97,13 @@ li.active a{
     margin-left: auto;
     margin-right: auto;
     width: 250px;
-    border: 5px var(--2-color) solid;
+    border: 5px var(--nav-bg-color) solid;
     border-radius: 25px;
     background-color: white;
 }
 
 .item h2 {
-    color: var(--3-color);
+    color: var(--heading-color);
 }
 
 .item a {
@@ -129,7 +126,7 @@ li.active a{
     font-weight: bold;
     font-size: 18px;
     vertical-align: center;
-    color: var(--3-color);
+    color: var(--heading-color);
     text-decoration: none;
 }
 
@@ -205,7 +202,7 @@ input[type=submit]:hover {
         width: 20%;
         max-width: 300px;
         height: 100vh;
-        background-color: var(--2-color);
+        background-color: var(--nav-bg-color);
     }
 
     nav ul li {
@@ -215,7 +212,7 @@ input[type=submit]:hover {
     }
 
     nav ul li a{
-        color: var(--3-color);
+        color: var(--heading-color);
         text-decoration: none;
         text-transform: uppercase;
         font-size: 20px;
@@ -238,11 +235,11 @@ input[type=submit]:hover {
     }
 
     nav ul li:hover{
-        background-color: var(--3-color);
+        background-color: var(--heading-color);
     }
 
     nav ul li.fadeIn:hover{
-        background-color: var(--2-color);
+        background-color: var(--nav-bg-color);
     }
 
     nav ul li:hover a{
@@ -251,7 +248,7 @@ input[type=submit]:hover {
 
     /* Header */
     header{
-        color: var(--3-color);
+        color: var(--heading-color);
         width: 75%;
         padding-left: 25%;
     }
@@ -266,7 +263,7 @@ input[type=submit]:hover {
         white-space: nowrap;
         margin-top: 50px;  
         margin-bottom: 0px ;
-        animation: typingName 0.75s steps(24, end) forwards, blink-caret 0.75s step-end forwards;
+        animation: typingName 0.5s steps(24, end) forwards, blink-caret 0.5s step-end forwards;
     }
 
     header h2 {
@@ -277,8 +274,8 @@ input[type=submit]:hover {
         overflow: hidden;
         border-right: .15em solid orange;
         white-space: nowrap;
-        animation: typingTitle 0.75s steps(24, end) forwards, blink-caret 0.75s step-end infinite;
-        animation-delay: 0.75s;
+        animation: typingTitle 0.5s steps(24, end) forwards, blink-caret 0.5s step-end infinite;
+        animation-delay: 0.5s;
     }
 
     header .type2 {
@@ -289,7 +286,7 @@ input[type=submit]:hover {
         overflow: hidden;
         border-right: .15em solid orange;
         white-space: nowrap;
-        animation: typingTitleAlt 1s steps(30, end) forwards, blink-caret 0.75s step-end forwards;
+        animation: typingTitleAlt 0.5s steps(30, end) forwards, blink-caret 0.5s step-end forwards;
     }
 
     /* Details */
@@ -358,7 +355,7 @@ input[type=submit]:hover {
         padding: 0;
         width: 100%;
         height: 30px;
-        background-color: var(--2-color);
+        background-color: var(--nav-bg-color);
 
     }
 
@@ -374,7 +371,7 @@ input[type=submit]:hover {
     }
 
     .navS a{
-        color: var(--3-color);
+        color: var(--heading-color);
         text-decoration: none;
         text-transform: uppercase;
         font-size: 13px;
@@ -388,7 +385,7 @@ input[type=submit]:hover {
     }
 
     .navS li:hover {
-        background-color: var(--3-color);
+        background-color: var(--heading-color);
     }
 
     .navS li:hover a {
@@ -398,7 +395,7 @@ input[type=submit]:hover {
     /* Header */
     header{
         text-align: center;
-        color: var(--3-color);
+        color: var(--heading-color);
         padding: 0;
         margin-left: auto;
         margin-right: auto;
@@ -415,7 +412,7 @@ input[type=submit]:hover {
         white-space: nowrap;
         margin-top: 50px;  
         margin-bottom: 0px ;
-        animation: typingNameS 0.75s steps(24, end) forwards, blink-caret 0.75s step-end forwards;
+        animation: typingNameS 0.5s steps(24, end) forwards, blink-caret 0.5s step-end forwards;
     }
 
     header h2 {
@@ -428,8 +425,8 @@ input[type=submit]:hover {
         overflow: hidden;
         border-right: .15em solid orange;
         white-space: nowrap;
-        animation: typingTitleS 0.75s steps(24, end) forwards, blink-caret 0.75s step-end infinite;
-        animation-delay: 0.75s;
+        animation: typingTitleS 0.5s steps(24, end) forwards, blink-caret 0.5s step-end infinite;
+        animation-delay: 0.5s;
     }
 
     header .type2 {
@@ -443,7 +440,7 @@ input[type=submit]:hover {
         overflow: hidden;
         border-right: .15em solid orange;
         white-space: nowrap;
-        animation: typingTitleAlt 1s steps(30, end) forwards, blink-caret 0.75s step-end forwards;
+        animation: typingTitleAlt 0.5s steps(30, end) forwards, blink-caret 0.5s step-end forwards;
     }
     
     #about img {
@@ -497,7 +494,7 @@ input[type=submit]:hover {
 
 .fadeIn{
   animation: slideIn 1s both;
-  animation-delay: 4.5s;
+  animation-delay: 3.5s;
 }
 
 .drop{
@@ -505,37 +502,42 @@ input[type=submit]:hover {
   animation-delay: 1.5s;
 }
 
+.slideInExp{
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-delay: 0.5s;
+}
+
 .slideIn{
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 .slideIn1{
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 2.5s;
+    animation-delay: 1.5s;
 }
 
 .slideIn2{
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 .slideIn3{
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 3.5s;
+    animation-delay: 2.5s;
 }
 
 .slideIn4{
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 4s;
+    animation-delay: 3s;
 }
 .slideIn5{
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 4.5s;
+    animation-delay: 3.5s;
 }
 .slideIn6{
     animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation-delay: 5s;
+    animation-delay: 4s;
 }
 
 @keyframes typingName {
